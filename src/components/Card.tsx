@@ -1,4 +1,4 @@
-import { CARD } from "@interfaces/Card";
+import { CARD } from "@interfaces/card";
 import { Photo } from "@components/Photo";
 import { Button } from "./Button";
 const Card = ({ exercises, description }: CARD) => {

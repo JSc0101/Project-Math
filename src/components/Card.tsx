@@ -1,14 +1,15 @@
-import { CARD } from "@interfaces/card";
-import { Photo } from "@components/Photo";
+import { CARD } from "../interfaces/card";
 import { Button } from "./Button";
-const Card = ({ exercises, description }: CARD) => {
+import { Photo } from "./Photo";
+
+export const Card = ({ exercises, description }: CARD) => {
   return (
     <div>
       <div>
         <Photo url="https://robothas/sebastian" />
       </div>
       <div>
-        <h2></h2>
+        <h2>{exercises}</h2>
         <Button name={description} />
       </div>
     </div>

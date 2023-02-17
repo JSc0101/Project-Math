@@ -1,8 +1,7 @@
-function App() {
-  return (
-    <div>
-        <h1>project Math</h1>      
-    </div>
-  )
-}
+import Swicth from "./routes";
+
+const App = () => {
+  return <Swicth />;
+};
+
 export default App;

@@ -8,11 +8,11 @@ export const Root = () => {
       <div>
         <h2>PROJECT MATH</h2>
         <Link to="/exercises">
-        <Button name="welcome" />
+          <Button name="welcome"  />
         </Link>
       </div>
       <div>
-        <Photo url="https://" />
+        <Photo url="https://i.postimg.cc/0QcVGDHj/fondo-Home-1.png" />
       </div>
     </>
   );
